@@ -34,3 +34,7 @@ done
 #present : This is first argument
 #present : Second Argument
 #present : sadf
+
+echo $? #status of the last command 0 means no error 1 means error
+echo $! #process id of the last background command
+echo $$ #process id
